@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h-20{
+    font-size: 20px;
+}
+.h-50{
+    font-size: 40px;
+}
+.h-30{
+    font-size: 30px;
+}
+.p-10{
+    padding: 10px!important;
+}
+.pb-10{ 
+    padding-bottom: 10px;
+}
+.p-20{
+    padding: 20px!important;
+}
+.ptpd{
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+.container{
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav_contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_contents img{
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding: 15px;
+}
+.navigation{
+    display:flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+#drop{
+    background-color: black;
+    border: none;
+    color: white;
+}
+.nav_head{
+    background-color: black;
+}
+.hero_section{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0,.2);
+    height: 100%;
+    width: 100%;
+}
+.hero_container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: calc(700/1920*100%);
+}
+.hero_container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero_section button{
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 15px;
+    width: 150px;
+}
+.card_image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.card_image img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+    object-fit: cover;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card_heading{
+    font-size: 30px;
+    padding: 10px;
+}
+.card_tag{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(65, 65, 65);
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.card_contents p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.section_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.our_work{
+    display: flex;
+    gap: 10px;
+    background-color: black;
+    padding: 15px;
+}
+.our_workscontents{
+    flex: 1;
+    color: white;
+}
+.works_cards{
+    display: flex;
+    gap: 15px;
+    flex: 3;
+}
+.works_cards figure{
+    position: relative;
+    height:0;
+    padding-top: 250px;
+    width: 100%;
+}
+.works_cards figure img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card_contents{
+    background-color: white;
+    padding: 10px;
+}
+.background{
+    background-color: black;
+}
+.forms{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.forms figure{
+    display: flex;
+}
+#fname,#email, #message{
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    margin-top: 10px;
+}
+#form_check{
+    height: 20px;
+    width: 20px;
+}
+#checkbox{
+    padding-top: 4px;
+}
+.form_checkbox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.forms{
+    position: relative;
+    padding: 10px;
+}
+.form{
+    width: 500px;
+}
+.buttons_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#p_button{
+    padding: 15px;
+    width: 150px;
+    border: none;
+    background-color: rgb(12, 165, 145);
+    color: white;
+}
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+footer .logos{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.bg{
+    position: relative;
+    background-color: white;
+}
+.contents{
+    flex: 3;
+}
+form{
+    width: 100%;
+    flex: 2;
+}
+.add_icon{
+    position: absolute;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgb(12, 165, 145);
+    top: 0;
+    right: 0;
+    margin-top: -35px;
+    margin-right: 10px;
+}
